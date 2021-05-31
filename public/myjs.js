@@ -36,6 +36,7 @@ function createui(data){
 
         let remark=document.createElement('p');
         remark.innerHTML=element['remark'];
+        remark.style.fontStyle="italic";
 
         pmcard.appendChild(mycounter);
         pmcard.appendChild(myimg);

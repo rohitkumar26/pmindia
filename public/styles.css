@@ -2,6 +2,9 @@
 body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 li{
@@ -19,8 +22,13 @@ li{
         gap:2px;
     }
   }
+ 
 .title{
-    color:dodgerblue;
+    background-color: antiquewhite;
+    margin:0;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 0.2em;
 }
 .card{
     margin:10px;
@@ -41,4 +49,10 @@ li{
     color:white;
     font-weight: 700;
     padding:3px;
+}
+.footer{
+    text-align: center;
+    padding:10px;
+    
+    background-color: antiquewhite;
 }
